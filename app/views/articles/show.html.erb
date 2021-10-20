@@ -1,0 +1,4 @@
+<%=@article.title%>
+<%= link_to "volver" , articles_path %>||
+<%= link_to "Borrar", article_path(@article), method: :delete %>||
+<%= link_to "Editar", edit_article_path(@article) %>
